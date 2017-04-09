@@ -1,0 +1,11 @@
+# Compose version. (different versions have different options allowed)
+version: '3'
+
+# Defines a "service". This is a collection of related containers
+services:
+    hello:
+        image: hello-env
+        container_name: environment-variable-demo
+        environment:
+            PERSON_NAME: "Docker Users"
+
