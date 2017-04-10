@@ -2,4 +2,4 @@
 
 # Launch a container based on the "no-volume" image
 
-docker run -it -v /persistent with-volume
+docker run -it -v store:/store with-volume

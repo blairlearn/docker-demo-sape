@@ -8,7 +8,7 @@ FROM    ubuntu:latest
 # Create a volume named "/persistent".  Anything stored in
 # /persistent will be available across instances of this
 # container.
-#VOLUME  ["/persistent"]
+#VOLUME  ["/store"]
 
 # Set the default command to run when the container
 # is launched.
