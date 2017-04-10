@@ -8,8 +8,6 @@ services:
       - 8080:80
     environment:
       WORDPRESS_DB_PASSWORD: example
-    depends_on:
-      - mysql
 
   mysql:
     image: mariadb
